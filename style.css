@@ -15,7 +15,7 @@ body {
 }
 
 .cards {
-  background-color: #f4f4ea;
+  background-color: #B7A196;
   border-radius: 10px;
   padding: 30px;
   padding-top: 0px;
@@ -31,6 +31,7 @@ body {
 
 .list-inline > li > a {
   text-decoration: none;
+  color: #000;
 }
 
 .list-inline {
@@ -46,14 +47,20 @@ body {
 .le-wagon-button {
   text-decoration: none;
   padding: 5px;
-  margin: 5px;
+  margin: 8px;
   background-color: #c09999;
   border-radius: 10%;
-  box-shadow: 0 3px #999;
+  box-shadow: 2px 3px #999;
+  color: black;
 }
 
 .le-wagon-button:hover {
-  background-color: #e16f90
+  background-color: #e16f90;
+  color: white
+}
+
+.link-button:hover {
+  color: white;
 }
 
 @media (max-width: 960px) {
