@@ -10,10 +10,6 @@ body {
   margin: 0 auto;
 }
 
-.img-circle {
-  border-radius: 50%;
-}
-
 .cards {
   background-color: #B7A196;
   border-radius: 10px;
@@ -22,6 +18,10 @@ body {
   margin: 20px;
   border: 1px solid lightgrey;
   text-align: center
+}
+
+.img-circle {
+  border-radius: 50%;
 }
 
 .list-inline > li {
