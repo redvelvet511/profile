@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700&display=swap');
+
+body {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: 300;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.cards {
+  background-color: #f4f4ea;
+  border-radius: 10px;
+  padding: 30px;
+  padding-top: 0px;
+  margin: 20px;
+  border: 1px solid lightgrey;
+  text-align: center
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline > li > a {
+  text-decoration: none;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.le-wagon-button {
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+  background-color: #c09999;
+  border-radius: 10%;
+  box-shadow: 0 3px #999;
+}
+
+.le-wagon-button:hover {
+  background-color: #e16f90
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
